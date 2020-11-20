@@ -8,6 +8,7 @@
     "serve": "webpack serve",
     "build": "webpack --mode production",
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "jest --coverage",
     "coverage": "jest --coverage",
     "preshow:coverage": "npm run coverage",
