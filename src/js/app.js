@@ -2,7 +2,7 @@ import img from '../img/goblin.png';
 const gameBoard = document.getElementsByClassName('game-board')[0];
 const gameFild = document.getElementsByClassName('field');
 const image = document.createElement('img');
-gameBoard.style = "display: flex; width: 420px; height: 420px; flex-wrap: wrap; justify-content: space-between;";
+gameBoard.style = "display: flex; width: 420px; height: 420px; flex-wrap: wrap; justify-content: space-between; ";
 
 for(let i = 0; i < 16; i++){
     const row = document.createElement('div');
@@ -17,7 +17,7 @@ image.src = img;
 
 const get = document.getElementsByClassName('field');
 function slide (){
-    const show = Math.floor(Math.random() * 15 + 1);
+    const show = Math.floor(Math.random() * 15 + 1);    
     return gameFild[show].append(image);
 };
 

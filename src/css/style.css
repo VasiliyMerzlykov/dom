@@ -1,6 +1,8 @@
 body {
     background: rgb(152, 247, 128);
-    /* background-image: url('../img/GracefulMiniatureBustard-small.gif');
-    background-repeat: no-repeat; */
-    text-align: center;
+  }
+  
+.game-board {
+    margin-left: auto;
+    margin-right: auto;
   }
